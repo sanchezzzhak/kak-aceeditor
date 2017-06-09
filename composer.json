@@ -24,7 +24,7 @@
     },
 	"autoload": {
 		"psr-4": {
-			"kak\\widgets\\ckeditor\\": ""
+			"kak\\widgets\\aceeditor\\": ""
 		}
 	}
 }
