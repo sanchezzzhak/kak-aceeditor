@@ -1,0 +1,30 @@
+{
+    "name": "kak/aceeditor",
+    "description": "ace editor widget for yii2",
+    "type": "yii2-widget",
+	"homepage": "https://github.com/sanchezzzhak/kak-aceeditor",
+    "keywords": ["yii2","aceeditor","aceeditor for yii2" , "widget"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tutik Alexsandr",
+            "email": "sanchezzzhak@ya.ru"
+        }
+    ],
+	"require": {
+		"php":">=5.4.0",
+        "yiisoft/yii2-imagine": "*",
+        "bower-asset/ace-builds": "^1.2.3"
+	},
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+	"autoload": {
+		"psr-4": {
+			"kak\\widgets\\ckeditor\\": ""
+		}
+	}
+}
